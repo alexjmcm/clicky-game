@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/click-game/clicky-game/precache-manifest.6f9476fce22ce8b4e00b07da63f56545.js"
+  "/click-game/precache-manifest.5e345fd353b2088926883b17ff3c4902.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/click-game/clicky-game/index.html", {
+workbox.routing.registerNavigationRoute("/click-game/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
